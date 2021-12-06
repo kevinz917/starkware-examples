@@ -1,0 +1,50 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "idx",
+                "type": "felt"
+            }
+        ],
+        "name": "get",
+        "outputs": [
+            {
+                "name": "res_1",
+                "type": "felt"
+            },
+            {
+                "name": "res_2",
+                "type": "felt"
+            },
+            {
+                "name": "res_3",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "idx",
+                "type": "felt"
+            },
+            {
+                "name": "first",
+                "type": "felt"
+            },
+            {
+                "name": "second",
+                "type": "felt"
+            },
+            {
+                "name": "third",
+                "type": "felt"
+            }
+        ],
+        "name": "set",
+        "outputs": [],
+        "type": "function"
+    }
+]
